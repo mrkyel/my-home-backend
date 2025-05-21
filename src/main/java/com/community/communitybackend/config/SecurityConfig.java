@@ -83,7 +83,8 @@ public class SecurityConfig {
         // 허용할 오리진 설정 (프론트엔드 URL)
         configuration.setAllowedOrigins(Arrays.asList(
             "http://localhost:3000", 
-            "https://my-home-loll.vercel.app"
+            "https://my-home-loll.vercel.app",
+            "https://my-home-loll-git-develop-kales-projects-afbeef01.vercel.app"
         ));
         
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
